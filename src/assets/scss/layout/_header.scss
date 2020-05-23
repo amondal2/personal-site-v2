@@ -18,22 +18,6 @@
       'opacity #{_duration(article)} ease-in-out'
     )
   );
-  background-image: -moz-radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
-  background-image: -webkit-radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
-  background-image: -ms-radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
-  background-image: radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
   max-width: 100%;
   text-align: center;
 
@@ -107,6 +91,7 @@
       letter-spacing: _font(letter-spacing);
       font-size: 0.8rem;
       line-height: 2;
+      font-weight: 600;
     }
   }
 
@@ -129,9 +114,11 @@
 
         button {
           display: block;
+          background-color: #f4f4f4;
           min-width: 7.5rem;
           height: 2.75rem;
           line-height: 2.75rem;
+          font-weight: 600;
           padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
           text-transform: uppercase;
           letter-spacing: _font(letter-spacing);
@@ -139,14 +126,10 @@
           font-family: _font(family);
           border: none;
           box-shadow: none;
+          opacity: 0.75;
 
-          &:hover,
-          &:focus {
+          &:hover {
             background-color: _palette(border-bg);
-          }
-
-          &:active {
-            background-color: _palette(border-bg-alt);
           }
         }
       }
