@@ -1,0 +1,26 @@
+.blogWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding-bottom: 300px;
+  a {
+    text-decoration: underline;
+  }
+  h2 {
+    padding-top: 35px;
+  }
+  p {
+    width: 50%;
+    font-size: 13pt;
+    margin-bottom: 5px;
+  }
+  ol {
+    width: 50%;
+    padding-top: 15px;
+  }
+  li {
+    font-size: 13pt;
+  }
+}
