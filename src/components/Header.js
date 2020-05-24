@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -15,13 +16,31 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <button>About</button>
+          <button
+            onClick={() => {
+              scrollTo('#about');
+            }}
+          >
+            About
+          </button>
         </li>
         <li>
-          <button>Blog</button>
+          <button
+            onClick={() => {
+              scrollTo('#blog');
+            }}
+          >
+            Blog
+          </button>
         </li>
         <li>
-          <button>Contact</button>
+          <button
+            onClick={() => {
+              scrollTo('#contact');
+            }}
+          >
+            Contact
+          </button>
         </li>
       </ul>
     </nav>

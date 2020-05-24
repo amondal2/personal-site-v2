@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className="aboutWrapper">
-      <h2>About Me</h2>
+      <h2 id="about">About Me</h2>
       <p>
         Thanks for visiting my site! I'm a software engineer based in Boston,
         MA. I currently work for Foundation Medicine, where I help patients and
@@ -12,27 +12,68 @@ const About = () => {
         in Biomedical Engineering and Applied Mathematics, and I'm primarily
         interested in the intersection of computation, medicine, and public
         health. On the side, I'm interested in analog photography, jazz (my
-        current favorite album), archaeology, and espresso. You can find a copy
-        of my CV here.
+        current favorite{' '}
+        <a
+          href="https://www.discogs.com/Bill-Evans-Trio-Portrait-In-Jazz/master/104371"
+          target="_blank"
+        >
+          album
+        </a>
+        ), archaeology, and espresso. You can find a copy of my CV{' '}
+        <a
+          href="https://drive.google.com/file/d/1Gg5DmOhip1b_D1XTNfCOcnV8TGLaKUtu/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>
+        .
       </p>
       <p>Some projects I've been a part of (at work and elsewhere):</p>
       <ol>
         <li>
-          Visualizing COVID-19 projections in the United States:
-          https://covid19.gleamproject.org/
+          Visualizing COVID-19 infection rate & death{' '}
+          <a
+            href="https://covid19.gleamproject.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            projections
+          </a>{' '}
+          in the United States.
         </li>
         <li>
-          Visualizing COVID-19 mobility & commuting data:
-          https://covid19.gleamproject.org/mobility
+          Visualizing{' '}
+          <a
+            href="https://covid19.gleamproject.org/mobility"
+            target="_blank"
+            rel="noreferrer"
+          >
+            mobility & commuting
+          </a>{' '}
+          patterns during the COVID-19 pandemic.
         </li>
         <li>
-          An automated tool for large-scale data normalization and processing:
-          https://patents.google.com/patent/US20190087475A1/
+          An automated{' '}
+          <a
+            href="https://patents.google.com/patent/US20190087475A1/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            tool
+          </a>{' '}
+          for large-scale data normalization and processing.
         </li>
         <li>
-          A blood-based, next-generation DNA sequencing analysis for patients
-          with advanced cancers:
-          https://www.foundationmedicine.com/genomic-testing/foundation-one-liquid
+          A blood-based, next-generation DNA sequencing{' '}
+          <a
+            href="https://www.foundationmedicine.com/genomic-testing/foundation-one-liquid"
+            target="_blank"
+            rel="noreferrer"
+          >
+            analysis pipeline
+          </a>{' '}
+          for patients with advanced cancers.
         </li>
       </ol>
     </div>
