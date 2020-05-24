@@ -5057,6 +5057,20 @@ gatsby-plugin-sass@^2.1.27:
     "@babel/runtime" "^7.9.6"
     sass-loader "^7.3.1"
 
+gatsby-plugin-smoothscroll@^1.1.0:
+  version "1.1.0"
+  resolved "https://foundationmedicine.jfrog.io/foundationmedicine/api/npm/npm/gatsby-plugin-smoothscroll/-/gatsby-plugin-smoothscroll-1.1.0.tgz#c98364e49125dcc87146406db0bc707a413653c7"
+  integrity sha1-yYNk5JEl3MhxRkBtsLxwekE2U8c=
+  dependencies:
+    smoothscroll-polyfill "^0.4.4"
+
+gatsby-plugin-styled-components@^3.3.2:
+  version "3.3.2"
+  resolved "https://foundationmedicine.jfrog.io/foundationmedicine/api/npm/npm/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.3.2.tgz#490220dc468c013e83336c2e27266f6f41a12c5d"
+  integrity sha1-SQIg3EaMAT6DM2wuJyZvb0GhLF0=
+  dependencies:
+    "@babel/runtime" "^7.9.6"
+
 gatsby-plugin-typescript@^2.4.3:
   version "2.4.3"
   resolved "https://foundationmedicine.jfrog.io/foundationmedicine/api/npm/npm/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.4.3.tgz#07393d842d8cb6fd3d0fcdafee36ab3ff55ab32b"
@@ -10547,6 +10561,11 @@ slugify@^1.4.0:
   version "1.4.0"
   resolved "https://foundationmedicine.jfrog.io/foundationmedicine/api/npm/npm/slugify/-/slugify-1.4.0.tgz#c9557c653c54b0c7f7a8e786ef3431add676d2cb"
   integrity sha1-yVV8ZTxUsMf3qOeG7zQxrdZ20ss=
+
+smoothscroll-polyfill@^0.4.4:
+  version "0.4.4"
+  resolved "https://foundationmedicine.jfrog.io/foundationmedicine/api/npm/npm/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
+  integrity sha1-OiWRMdxpMObKgAA+HLA7YDtpq/g=
 
 snapdragon-node@^2.0.1:
   version "2.1.1"

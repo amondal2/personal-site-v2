@@ -3,7 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f4f4f4;
+  background-color: #fff6fc;
+  min-height: 500px;
+  a {
+    text-decoration: underline;
+  }
   h2 {
     padding-top: 35px;
   }
