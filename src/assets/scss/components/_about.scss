@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: justify;
+
   background-color: #fff6fc;
   min-height: 500px;
   a {
@@ -22,5 +24,15 @@
   }
   li {
     font-size: 13pt;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutWrapper {
+    text-align: left;
+    p,
+    ol {
+      width: 80%;
+    }
   }
 }

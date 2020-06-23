@@ -5,6 +5,8 @@
   justify-content: center;
   background-color: #f4f4f4;
   padding-bottom: 300px;
+  text-align: justify;
+
   a {
     text-decoration: underline;
   }
@@ -27,5 +29,15 @@
   li {
     font-size: 13pt;
     list-style: disc;
+  }
+}
+
+@media (max-width: 500px) {
+  .blogWrapper {
+    text-align: left;
+    p,
+    ol {
+      width: 80%;
+    }
   }
 }

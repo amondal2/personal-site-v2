@@ -11,6 +11,11 @@
 .blog-post {
   width: 50%;
 }
+@media (max-width: 500px) {
+  .blog-post {
+    width: 100%;
+  }
+}
 
 .blog-post-content {
   text-align: justify;
