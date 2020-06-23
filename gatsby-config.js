@@ -18,5 +18,13 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     `gatsby-plugin-smoothscroll`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 };

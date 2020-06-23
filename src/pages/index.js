@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import About from '../components/About';
 import Blog from '../components/Blog';
 import Contact from '../components/Contact';
+import { graphql } from 'gatsby';
 
 class IndexPage extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class IndexPage extends React.Component {
             <Header />
           </div>
           <About />
-          <Blog />
+          <Blog data={this.props.data} />
           <Contact />
           <Footer />
         </div>
@@ -26,3 +27,17 @@ class IndexPage extends React.Component {
 }
 
 export default IndexPage;
+
+export const pageQuery = graphql`
+  query MyQuery {
+    allMarkdownRemark {
+      nodes {
+        frontmatter {
+          title
+          slug
+          date(formatString: "MMMM DD, YYYY")
+        }
+      }
+    }
+  }
+`;
