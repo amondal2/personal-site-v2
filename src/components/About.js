@@ -5,21 +5,29 @@ const About = () => {
     <div className="aboutWrapper">
       <h2 id="about">About Me</h2>
       <p>
-        Thanks for visiting my site! I'm a software engineer based in Boston,
-        MA. I currently work for Foundation Medicine, where I help patients and
-        oncologists visualize complex genomic data to better help understand
-        cancer. I graduated from Johns Hopkins University in 2016 with degrees
-        in Biomedical Engineering and Applied Mathematics, and I'm primarily
+        Thanks for visiting my site! I'm an incoming epidemiology and
+        computational biology PhD student to the University of California,
+        Berkeley's School of Public Health. I'll be working in Professor John
+        Marshall's{' '}
+        <a href="https://www.marshalllab.com" target="_blank" rel="noreferrer">
+          lab
+        </a>
+        , where I'll be studying computational models of infectious disease
+        control (particularly vector-borne diseases). In a past life, I worked
+        as a software engineer in the cancer genomics and humanitarian spaces. I
+        graduated from Johns Hopkins University in 2016 with degrees in
+        Biomedical Engineering and Applied Mathematics, and I'm primarily
         interested in the intersection of computation, medicine, and public
-        health. On the side, I'm interested in analog photography, jazz (my
-        current favorite{' '}
+        health. On the side, I enjoy analog photography, jazz (my current
+        favorite{' '}
         <a
           href="https://www.discogs.com/Bill-Evans-Trio-Portrait-In-Jazz/master/104371"
           target="_blank"
+          rel="noreferrer"
         >
           album
         </a>
-        ), archaeology, and espresso. You can find a copy of my CV{' '}
+        ), archaeology, history, and espresso. You can find a copy of my CV{' '}
         <a
           href="https://drive.google.com/file/d/1Gg5DmOhip1b_D1XTNfCOcnV8TGLaKUtu/view?usp=sharing"
           target="_blank"

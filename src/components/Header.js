@@ -4,13 +4,20 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span className="icon fa-code"></span>
-    </div>
+    <img
+      className="logo"
+      src="https://s.gravatar.com/avatar/0de41d327f8852a19eadfb222599b956?size=496&default=retro"
+      alt="headshot"
+    ></img>
     <div className="content">
       <div className="inner">
         <h1>Hi, I'm Agastya</h1>
-        <p>📍Boston, MA</p>
+        <p>
+          <span role="img" aria-label="pin">
+            📍
+          </span>
+          Berkeley, CA (soon)
+        </p>
       </div>
     </div>
     <nav>

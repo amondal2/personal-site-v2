@@ -4,7 +4,10 @@ import PropTypes from 'prop-types';
 const Footer = props => (
   <footer id="footer">
     <p className="copyright">
-      Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js</a>
+      Built with:{' '}
+      <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">
+        Gatsby.js
+      </a>
     </p>
     <p className="copyright">
       Art used with permission from artist:{' '}
