@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+span {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .blog-post {
   width: 50%;
 }
