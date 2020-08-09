@@ -5,14 +5,14 @@ const About = () => {
     <div className="aboutWrapper">
       <h2 id="about">About Me</h2>
       <p>
-        Thanks for visiting my site! I'm an incoming epidemiology and
-        computational biology PhD student to the University of California,
-        Berkeley's School of Public Health. I'll be working in Professor John
+        Thanks for visiting my site! I'm an epidemiology and
+        computational biology PhD student at the University of California,
+        Berkeley's School of Public Health. I work in Professor John
         Marshall's{' '}
         <a href="https://www.marshalllab.com" target="_blank" rel="noreferrer">
           lab
         </a>
-        , where I'll be studying computational models of infectious disease
+        , where I study computational models of infectious disease
         control (particularly vector-borne diseases). In a past life, I worked
         as a software engineer in the cancer genomics and humanitarian spaces. I
         graduated from Johns Hopkins University in 2016 with degrees in
