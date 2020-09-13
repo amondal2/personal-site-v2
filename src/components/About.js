@@ -75,7 +75,7 @@ const About = () => {
         <li>
           A blood-based, next-generation DNA sequencing{' '}
           <a
-            href="https://www.foundationmedicine.com/genomic-testing/foundation-one-liquid"
+            href="https://www.foundationmedicine.com/test/foundationone-liquid-cdx"
             target="_blank"
             rel="noreferrer"
           >
