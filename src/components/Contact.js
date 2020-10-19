@@ -16,6 +16,15 @@ const Contact = () => {
         </li>
         <li>
           <a
+            href="https://twitter.com/AgastyaMondal"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a
             href="https://github.com/amondal2"
             target="_blank"
             rel="noreferrer"

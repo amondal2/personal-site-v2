@@ -21,13 +21,13 @@ const About = () => {
         health. On the side, I enjoy analog photography, jazz (my current
         favorite{' '}
         <a
-          href="https://www.discogs.com/Bill-Evans-Trio-Portrait-In-Jazz/master/104371"
+          href="https://www.discogs.com/Kamasi-Washington-The-Epic/master/837501"
           target="_blank"
           rel="noreferrer"
         >
           album
         </a>
-        ), archaeology, history, and espresso. You can find a copy of my CV{' '}
+        ), history, and espresso. You can find a copy of my CV{' '}
         <a
           href="https://drive.google.com/file/d/1Gg5DmOhip1b_D1XTNfCOcnV8TGLaKUtu/view?usp=sharing"
           target="_blank"
