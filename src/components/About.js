@@ -7,13 +7,13 @@ const About = () => {
       <p>
         Thanks for visiting my site! I'm an epidemiology and
         computational biology PhD student at the University of California,
-        Berkeley's School of Public Health. I work in Professor John
+        Berkeley. I work in Professor John
         Marshall's{' '}
         <a href="https://www.marshalllab.com" target="_blank" rel="noreferrer">
           lab
         </a>
-        , where I study computational models of infectious disease
-        control (particularly vector-borne diseases). In a past life, I worked
+        , where I study computational models of vector-borne infectious disease
+        control. In a past life, I worked
         as a software engineer in the cancer genomics and humanitarian spaces. I
         graduated from Johns Hopkins University in 2016 with degrees in
         Biomedical Engineering and Applied Mathematics, and I'm primarily
@@ -29,7 +29,7 @@ const About = () => {
         </a>
         ), history, and espresso. You can find a copy of my CV{' '}
         <a
-          href="https://drive.google.com/file/d/1Gg5DmOhip1b_D1XTNfCOcnV8TGLaKUtu/view?usp=sharing"
+          href="https://drive.google.com/file/d/1zuvVCTjjJD69To86fcuV8SpAMcYeWITo/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
