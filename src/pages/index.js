@@ -7,6 +7,7 @@ import About from '../components/About';
 import Blog from '../components/Blog';
 import Contact from '../components/Contact';
 import { graphql } from 'gatsby';
+import Photography from '../components/Photography';
 
 class IndexPage extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class IndexPage extends React.Component {
           </div>
           <About />
           <Blog data={this.props.data} />
+          <Photography />
           <Contact />
           <Footer />
         </div>

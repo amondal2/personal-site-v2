@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Footer = props => (
+const Footer = () => (
   <footer id="footer">
     <p className="copyright">
       Built with:{' '}

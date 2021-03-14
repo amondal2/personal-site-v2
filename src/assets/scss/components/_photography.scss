@@ -1,0 +1,125 @@
+.photoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  
+    background-color: #fff6fc;
+    min-height: 500px;
+    a {
+      text-decoration: underline;
+    }
+    h2 {
+      padding-top: 35px;
+    }
+    p {
+      font-size: 13pt;
+      margin-bottom: 15px;
+    }
+    ol {
+      width: 50%;
+      padding-top: 15px;
+    }
+    li {
+      font-size: 13pt;
+    }
+  }
+
+  .tileContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+    &:hover button {
+      filter: blur(3px)
+    }
+    &:hover button:hover {
+      filter: none;
+    }
+    button {
+      width: 32%;
+      padding-bottom: 32%; /* Same as width, sets height */
+      margin-bottom: 2%; /* (100-32*3)/2 */
+      position: relative;
+      border: none;
+      color: white !important;
+      transition: 0.4s ease-in-out;
+
+    }
+    .nyc {
+      background: url("https://live.staticflickr.com/65535/51034347056_7dfc2ac856_k.jpg") no-repeat;
+      background-size: 400px;
+
+    }
+    .dc {
+      background: url("https://live.staticflickr.com/65535/51033672963_1ecfff6a39_k.jpg") no-repeat;
+      background-size: 400px;
+      color: black !important;
+    }
+    .bos {
+      background: url("https://live.staticflickr.com/65535/51033788753_0b70c78c82_k.jpg") no-repeat;
+      background-size: 400px;
+    }
+    .japan {
+      background: url("https://live.staticflickr.com/65535/51034630022_7fc42438e7_b.jpg") no-repeat;
+      background-size: 250px;
+      color: black !important;
+
+    }
+
+    .india {
+      background: url("https://live.staticflickr.com/65535/51034541651_7bea028365_b.jpg") no-repeat;
+      background-size: 400px;
+    }
+
+    .china {
+      background: url("https://live.staticflickr.com/65535/51034561681_6de338b172_b.jpg") no-repeat;
+      background-size: 400px;
+      color: black !important;
+
+    }
+    .hk {
+      background: url("https://live.staticflickr.com/65535/51034564446_85da27f09d_b.jpg") no-repeat;
+      background-size: 400px;
+    }
+    .taiwan {
+      background: url("https://live.staticflickr.com/65535/51034680017_ca0fe3d08b_b.jpg") no-repeat;
+      background-size: 245px;
+      color: black !important;
+    }
+    .france {
+      background: url("https://live.staticflickr.com/65535/51033858013_4cc173a169_b.jpg") no-repeat;
+      background-size: 250px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    
+    .photoWrapper {
+      .tileContainer {
+        width: 50%;
+        &:hover button {
+          filter: none;
+        }
+        &:hover button:hover {
+          filter: none;
+        }
+        button {
+          position: relative;
+          border: none;
+          line-height: 220px;
+          transition: none;
+          background: none;
+    
+        }
+      }
+      text-align: left;
+      p,
+      ol {
+        width: 80%;
+      }
+      
+    }
+  }
+  
