@@ -16,7 +16,7 @@ const Header = props => (
           <span role="img" aria-label="pin">
             📍
           </span>
-          Berkeley, CA
+          San Francisco, CA
         </p>
       </div>
     </div>

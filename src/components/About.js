@@ -29,7 +29,7 @@ const About = () => {
         </a>
         ), history, and espresso. You can find a copy of my CV{' '}
         <a
-          href="https://drive.google.com/file/d/1zuvVCTjjJD69To86fcuV8SpAMcYeWITo/view?usp=sharing"
+          href="https://www.overleaf.com/read/yfcmctnqrgkk"
           target="_blank"
           rel="noreferrer"
         >

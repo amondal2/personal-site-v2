@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
           </div>
           <About />
           <Blog data={this.props.data} />
-          <Photography />
+          {/* <Photography /> */}
           <Contact />
           <Footer />
         </div>
